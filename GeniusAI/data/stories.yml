@@ -28,3 +28,76 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: question aquifer
+  steps:
+    - intent: question_aquifer
+    - action: utter_questionaquifer
+
+- story: question confinedaquifer
+  steps:
+    - intent: question_confinedaquifer
+    - action: utter_questionconfinedaquifer
+
+- story: question recharge
+  steps:
+    - intent: question_recharge
+    - action: utter_questionrecharge
+- story: question discharge
+  steps:
+    - intent: question_discharge
+    - action: utter_questiondischarge
+- story: question watertable
+  steps:
+    - intent: question_watertable
+    - action: utter_questionwatertable
+- story: question permeability
+  steps:
+    - intent: question_permeability
+    - action: utter_questionpermeability
+- story: question porosity
+  steps:
+    - intent: question_porosity
+    - action: utter_questionporosity
+- story: question well
+  steps:
+    - intent: question_well
+    - action: utter_questionwell
+- story: question artesianwell
+  steps:
+    - intent: question_artesianwell
+    - action: utter_questionartesianwell
+- story: question groundwater
+  steps:
+    - intent: question_groundwater
+    - action: utter_questiongroundwater
+- story: question hydraulicconductivity
+  steps:
+    - intent: question_hydraulicconductivity
+    - action: utter_questionhydraulicconductivity
+- story: question groundwaterflow
+  steps:
+    - intent: question_groundwaterflow
+    - action: utter_questiongroundwaterflow
+- story: question drawdown
+  steps:
+    - intent: question_drawdown
+    - action: utter_questiondrawdown
+- story: question overdraft
+  steps:
+    - intent: question_overdraft
+    - action: utter_questionoverdraft
+- story: question noc
+  steps:
+    - intent: question_noc
+    - action: utter_questionnoc
+- story: question purposeofnoc
+  steps:
+    - intent: question_purposeofnoc
+    - action: utter_questionpurposeofnoc
+- story: question conditionsofnoc
+  steps:
+    - intent: question_conditionsofnoc
+    - action: utter_questionconditionsofnoc
+
+

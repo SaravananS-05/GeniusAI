@@ -89,3 +89,79 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: question_aquifer
+  examples: |
+    - what is aquifer?
+
+- intent: question_confinedaquifer
+  examples: |
+    - what is confined aquifer?
+
+- intent: question_unconfinedaquifer
+  examples: |
+    - what is unconfined aquifer?
+
+- intent: question_recharge
+  examples: |
+    - what is recharge?
+
+- intent: question_discharge
+  examples: |
+    - what is discharge?
+
+- intent: question_watertable
+  examples: |
+    - what is water table?
+
+- intent: question_permeability
+  examples: |
+    - what is permeability?
+
+- intent: question_porosity
+  examples: |
+    - what is porosity?
+
+- intent: question_well
+  examples: |
+    - what is well?
+
+- intent: question_artesianwell
+  examples: |
+    - what is artesian well?
+
+- intent: question_groundwater
+  examples: |
+    - what is ground water?
+
+- intent: question_hydraulicconductivity
+  examples: |
+    - what is hydraulic conductivity?
+
+- intent: question_groundwaterflow
+  examples: |
+    - what is ground water flow?
+
+- intent: question_drawdown
+  examples: |
+    - what is draw down?
+
+- intent: question_overdraft
+  examples: |
+    - what is overdraft?
+
+- intent: question_noc
+  examples: |
+      - what is noc?
+
+- intent: question_purposeofnoc
+  examples: |
+    - what is purpose of noc?
+- intent: question_conditionsofnoc
+  examples: |
+    - how to obtain noc?
+    
+    
+    
+    
+
